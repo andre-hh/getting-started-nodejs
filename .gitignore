@@ -1,2 +1,7 @@
+.idea
+_builds
+_cache
+_projects
+_steps
 .wercker
 node_modules

@@ -3,7 +3,7 @@
 
   var app = require('../app.js');
 
-  describe('GET', function(){
+  describe('GET', function() {
     it('respond with json', function(done){
       request(app)
       .get('/')
@@ -11,4 +11,4 @@
       .expect('Content-Type', /json/)
       .expect(200, done);
     })
-  })
+  });
